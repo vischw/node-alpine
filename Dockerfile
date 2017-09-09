@@ -1,6 +1,6 @@
-FROM node:7-alpine
+FROM node:8-alpine
 
-RUN npm install -g --quite laravel-echo-server
+RUN npm i -g yarn
 
 WORKDIR /app
 
