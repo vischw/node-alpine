@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM node:10.19.0-alpine3.9
 
 RUN npm i -g yarn
 
